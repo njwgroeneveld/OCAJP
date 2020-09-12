@@ -3,7 +3,7 @@
 	See what happens when both the classes try to acces the fields of each other.
 	Hint: If you have trouble compiling classes, check out "Compilation and Execution" section in kickstarter for Beginners".
 
-2.	Define a local variable in a method. Updat this variable in a while loop and print it out after the loop ends.
+2.	Define a local variable in a method. Update this variable in a while loop and print it out after the loop ends.
 	Check what happens when you define a variable by the same name within the loop.
 
 3.	Create a class in package foo and another class in package foo.bar with a static method. 
@@ -12,3 +12,35 @@
 4.	Create a class with a main method and execute the class with a few arguments. Print the number of arguments
 
 5.	Which java feature (or lack of thereof) annoys you most. Why?
+
+
+Explained:
+
+1A. 	used on the command line: javac -d . ClassA.java
+	to compile the java ClassA file in de directory(p1) package.
+
+1B. 	used on the command line: java -cp . p1.ClassA
+	to acces the java file from the directory: OCAJP\2.Java_Basics\Project
+	
+
+Notes:
+
+1A.	It seems not possible to run the java file by JVM ClassA directly from the directory p1, when it is compiled.
+1B.	note to acces a Class by the JVM you have to get through packagename.classname
+
+Questions:
+
+
+2. ?	dont get question 2? a local variable is available in the code block where it stays on that stack space.
+	After the code block the stack is clean whiped. So i suggest that you can use variable with the same name in the loop,
+	As in the method, because the loop another codeblock. Who can help me further?
+
+3. ?	I dont get it when you import a class, why must that class be public? If i want to ivoked the static method
+	from a (no acces modifier) ClassB i get: 
+	ClassOne.java:9: error: ClassTwo is not public in Foo.Bar; cannot be accessed from outside package
+                Foo.Bar.ClassTwo.method();
+	My expectation was when a certain package is imported the class within (all with is respected functions, variables) should be accessible
+	but that is not the case?
+
+
+	
