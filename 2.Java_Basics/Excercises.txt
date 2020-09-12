@@ -1,0 +1,14 @@
+1. 	Create classes in two different named packages. 
+	Define static and instance fields in one of those classes and acces those fields from the other class.
+	See what happens when both the classes try to acces the fields of each other.
+	Hint: If you have trouble compiling classes, check out "Compilation and Execution" section in kickstarter for Beginners".
+
+2.	Define a local variable in a method. Updat this variable in a while loop and print it out after the loop ends.
+	Check what happens when you define a variable by the same name within the loop.
+
+3.	Create a class in package foo and another class in package foo.bar with a static method. 
+	Invoke the static method from the class in package foo using different import statements.
+
+4.	Create a class with a main method and execute the class with a few arguments. Print the number of arguments
+
+5.	Which java feature (or lack of thereof) annoys you most. Why?
