@@ -1,0 +1,11 @@
+1. 	Define a reference type named Bird. Define an instance method named fly in Bird.
+	Define a few instance as well as static variables of type int, float, double, boolean and String in Bird.
+
+2. 	Create a TestClass that has a static variable of type Bird. Initialize this variable with a valid Bird object.
+	Print out the default values of static and instance variables of Bird fromthe main method ofTestClass. 
+	Also print out the static variable of TestClass from main. Observe the output
+
+	// vragen:	1. static field public/private? instance fields are often private.
+			2. why im getting void is not allowed here?
+
+
