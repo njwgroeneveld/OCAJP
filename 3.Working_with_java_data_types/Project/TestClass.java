@@ -6,10 +6,7 @@ public static Bird firstBird;
 
 
 public static void main (String [] args){
-
 	firstBird = new Bird ();
-	
-	
 	Bird secondBird = new Bird();
 	secondBird.legs = 2;
 	secondBird.name = "bigbird";
@@ -26,14 +23,5 @@ public static void main (String [] args){
 	secondBird.fly(new Integer(4));	// doesnt compile Integer cannot be converted to Float
 	//secondBird.fly(2);				// doesnt compile integer cannot be converted to Float
 	//secondBird.fly("10");			// doesnt compile string cannot be converted to Float
-	
-	
-	
-	
-	
-	
-	
 }
-
-
 }
